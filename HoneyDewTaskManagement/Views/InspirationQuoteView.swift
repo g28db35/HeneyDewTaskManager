@@ -12,7 +12,7 @@ struct InspirationQuoteView: View {
     @State private var isAnimating = false
     var body: some View {
         VStack {
-            /* Capstone requirement 4: text animation with .animation modifier*/
+            /* Capstone requirement  4: text animation with .animation modifier*/
             Text("Your Daily Inspiration Quote")
                 .font(.title)
                 .foregroundColor(.blue)
